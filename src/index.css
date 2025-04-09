@@ -1,0 +1,140 @@
+body {
+  background: linear-gradient(100deg, #153677,#4e085f);
+  color: white; /* Ensure text is visible */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px 40px;
+  background: linear-gradient(100deg, #4e085f, #153677);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.page h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #fff;
+}
+
+.page input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+.page input:focus {
+  box-shadow: 0 0 5px #fff;
+}
+
+.page button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.page button:hover {
+  background-color: #222;
+}
+
+.table{
+  max-width: 550px;
+  margin: 40px auto;
+  padding: 50px 50px;
+  background: linear-gradient(100deg, #4e085f, #153677);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  color: black;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.update {
+  background-color: cornsilk;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.update:hover {
+  background-color: green;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.delete {
+  background-color: lightcoral;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: red;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.crud-table {
+  width: 80%;
+  margin: 20px auto;
+  margin-top: 150px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.crud-table th,
+.crud-table td {
+  padding: 12px 16px;
+  text-align: center;
+  border: 1px solid #0b0101;
+}
+
+.crud-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+.crud-table tr:nth-child(even) {
+}
+
+
+.crud-table tr:hover {
+  background-color: #2b2839;
+  transition: background 0.3s ease;
+}
+
+.product-btn{
+  border-radius: 5px;
+  background-color:rgb(227, 210, 210);
+}
+
+.product-btn:hover{
+  background-color: rgb(157, 208, 222);
+  transition: background 0.3s ease;
+}
